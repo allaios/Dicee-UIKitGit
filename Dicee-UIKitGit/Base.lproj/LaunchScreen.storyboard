@@ -17,20 +17,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Launch" translatesAutoresizingMaskIntoConstraints="NO" id="OgY-h0-SF8">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch" translatesAutoresizingMaskIntoConstraints="NO" id="OgY-h0-SF8">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wait..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYy-vd-rmD">
-                                <rect key="frame" x="140" y="400" width="112" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wait..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYy-vd-rmD">
+                                <rect key="frame" x="140.66666666666666" y="400" width="112" height="52"/>
                                 <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="40"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn to Code By Making Apps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqW-0a-7w6">
+                                <rect key="frame" x="73.666666666666686" y="482" width="246" height="22"/>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OgY-h0-SF8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="2M9-yD-0y2"/>
+                            <constraint firstItem="VqW-0a-7w6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ExW-lG-Aag"/>
+                            <constraint firstItem="FYy-vd-rmD" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Mln-ZY-1mn"/>
+                            <constraint firstItem="VqW-0a-7w6" firstAttribute="top" secondItem="FYy-vd-rmD" secondAttribute="bottom" constant="30" id="Ogb-PD-R3w"/>
+                            <constraint firstAttribute="bottom" secondItem="OgY-h0-SF8" secondAttribute="bottom" id="jrk-xb-mhw"/>
+                            <constraint firstItem="FYy-vd-rmD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="v3b-Hg-4Qj"/>
+                            <constraint firstItem="OgY-h0-SF8" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="yzA-2F-rdp"/>
+                            <constraint firstItem="OgY-h0-SF8" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="z8L-sk-Qm6"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
